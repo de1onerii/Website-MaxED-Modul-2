@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var words = ['Стремитесь не к успеху, а к ценностям, которые он дает',
+                        'Надо любить жизнь больше, чем смысл жизни.',
+                        ' Жизнь - это то, что с тобой происходит, пока ты строишь планы.']
+        function work() {
+            alert('Работает. Не трогай!');
+        }
+        function word() {
+            for(var i = 0; i < words.length; i++)
+            alert(words[i])
+        }
+
+    </script>
+    <input value="Работает?" onclick="work()" type="button">
+    <input value="Хм..." onclick="word()" type="button">
+</body>
+</html>
